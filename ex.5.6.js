@@ -5,10 +5,10 @@ function mask(num) {
   for (let i = 0; i < theRest.length; i++) {
     hash.push("#");
   }
-  console.log(theRest);
-  console.log(hash);
+  //   console.log(theRest);
+  //   console.log(hash);
   return hash.join("") + lastFour;
 }
 
-console.log(mask(22));
+console.log(mask("implementedtested"));
 console.log(mask(111111111113322));
