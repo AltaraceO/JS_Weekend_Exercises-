@@ -19,7 +19,6 @@ function fibonacci(loopIte) {
 
 function Testfibonacci() {
   console.log("Return Fibonachi Func Value 10");
-
   console.log(fibonacci(10));
 }
 
