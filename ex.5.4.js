@@ -1,3 +1,5 @@
+//*Seen this used on Reddit
+
 function crazyCase(str) {
   newStr = [];
   for (let i = 0; i < str.length; i++)

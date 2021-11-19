@@ -3,11 +3,13 @@ function theBus(arrs) {
   for (let i = 0; i < arrs.length; i++) {
     total += arrs[i][0] - arrs[i][1];
   }
-  console.log(total);
+  return total;
 }
 
-theBus([
-  [10, 0],
-  [3, 5],
-  [5, 8],
-]);
+console.log(
+  theBus([
+    [10, 0],
+    [3, 5],
+    [5, 8],
+  ])
+);

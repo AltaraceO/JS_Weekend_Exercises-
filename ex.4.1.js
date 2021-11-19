@@ -11,12 +11,12 @@ function fibonacci(loopIte) {
     second = middle + first;
     // console.log(second);
     first = second + middle;
-    // first = second + first;
     // console.log(first);
   }
   return second;
 }
 
+//*Function testing the main function with explenation
 function Testfibonacci() {
   console.log("Return Fibonachi Func Value 10");
   console.log(fibonacci(10));

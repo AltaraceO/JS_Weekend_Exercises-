@@ -1,5 +1,5 @@
 function tribonacci(arr, loopIte) {
-  // use the same arr enterd instead of variables
+  // use the same arr enterd instead of entering values into variables
   for (let i = 1; i < loopIte; i++) {
     // console.log(arr[0]);
     arr[0] = arr[0] + arr[1] + arr[2];
@@ -11,6 +11,7 @@ function tribonacci(arr, loopIte) {
   return arr[2];
 }
 
+//*Function testing the main function with explenation
 function TestTribonacci() {
   console.log("Return tribunacci [1,1,1] n-4");
   console.log(tribonacci([1, 1, 1], 4));

@@ -4,11 +4,11 @@ function nextPerfectSquare(sqr) {
   let num = Math.sqrt(sqr);
   num++;
   if (num * num !== Math.round(num * num)) {
-    console.log(-1);
+    return -1;
   } else {
-    console.log(num * num);
+    return num * num;
   }
 }
 
-nextPerfectSquare(625);
-nextPerfectSquare(114);
+console.log(nextPerfectSquare(625));
+console.log(nextPerfectSquare(114));
